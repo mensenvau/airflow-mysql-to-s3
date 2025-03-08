@@ -1,10 +1,10 @@
-### Airflow Dynamic Mysql To S3
+### Airflow Dynamic MySQL to S3
 
-A dynamic MySQL to S3 was created to migrate data from the Jobgram.org site to S3, which can also be used for other processes.
+A powerful and dynamic MySQL-to-S3 pipeline designed for seamless data migration from **Jobgram.org** to S3. This robust solution can also be leveraged for various other data processing tasks.
 
-#### Aifrlow (Init and Run):
+#### Airflow (Initialization & Execution)
 
-[Please check this link for more details](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
+[Check the official documentation for more details](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html).
 
 ```bash
 docker compose up airflow-init
@@ -14,7 +14,7 @@ docker compose up airflow-init
 docker compose up -d
 ```
 
-S3 (minio):
+#### S3 (MinIO) Setup
 
 ```bash
 mkdir -p ~/minio/data
@@ -28,3 +28,25 @@ docker run \
    -e "MINIO_ROOT_PASSWORD=CHANGEME123" \
    quay.io/minio/minio server /data --console-address ":9001"
 ```
+
+### Examples
+
+#### DAGs Example
+
+![DAGs Example](./images/dags.png)
+
+#### Metadata Example
+
+![Metadata Example](./images/metadata.png)
+
+#### S3 Bucket Example
+
+![S3 Bucket Example](./images/s3%20bucket.png)
+
+### Recommended Watch
+
+[Watch this YouTube video for more insights](https://www.youtube.com/watch?v=K9AnJ9_ZAXE)
+
+### Join Our Telegram Channel
+
+Stay updated by joining our Telegram channel: [@mensenvau](https://t.me/mensenvau)
