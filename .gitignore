@@ -1,5 +1,6 @@
 # file
 .env
+.DS_Store
 
 # fodler
 logs
