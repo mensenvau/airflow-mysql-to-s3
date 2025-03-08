@@ -1,0 +1,5 @@
+[
+  { "dag_id": "jobs", "src_conn_id": "my_mysql", "src_database_name": "tech_award_2024", "src_table_name": "jobs", "src_delta_column": "created_at", "tgt_conn_id": "my_minio", "tgt_bucket_name": "jobgram", "tgt_folder_name": "jobs" },
+  { "dag_id": "channels", "src_conn_id": "my_mysql", "src_database_name": "tech_award_2024", "src_table_name": "channels", "src_delta_column": "created_at", "tgt_conn_id": "my_minio", "tgt_bucket_name": "jobgram", "tgt_folder_name": "channels" },
+  { "dag_id": "messages", "src_conn_id": "my_mysql", "src_database_name": "tech_award_2024", "src_table_name": "messages", "src_delta_column": "created_at", "tgt_conn_id": "my_minio", "tgt_bucket_name": "jobgram", "tgt_folder_name": "messages" }
+]
