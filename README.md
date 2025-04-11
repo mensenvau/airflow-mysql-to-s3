@@ -49,4 +49,4 @@ docker run \
 
 ### Join Our Telegram Channel
 
-Stay updated by joining our Telegram channel: [@mensenvau](https://t.me/mensenvau)
+Stay updated by joining our Telegram channel: [@mensenvau](https://t.me/mensenvau) ... 
